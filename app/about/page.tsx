@@ -1,4 +1,4 @@
-import { Heart, Target, Award, Users } from "lucide-react"
+import { Heart, Target, Award, Users, HandHeart, Handshake } from "lucide-react"
 
 export default function AboutPage() {
   return (
@@ -51,9 +51,8 @@ export default function AboutPage() {
               <Heart className="w-16 h-16 text-green-400 mx-auto mb-6" />
               <h2 className="text-2xl font-bold text-gray-800 mb-4">Nuestra Visión</h2>
               <p className="text-gray-600 leading-relaxed">
-                Ser reconocidos como el centro de referencia en servicios profesionales de salud mental, destacando por
-                la calidad humana de nuestro equipo, la innovación en nuestros tratamientos y el compromiso con el
-                bienestar integral de nuestros pacientes.
+                Ser reconocidos y recordados por nuestros usuarios, por entregar un servicio de calidad, respeto, empatía, calidez humana. 
+                Constituir espacios nuevos, con mayor equipo y herramientas que potencie el trabajo profesional, ya sea en tecnologías e investigaciones en el área de salud especializada.
               </p>
             </div>
           </div>
@@ -69,20 +68,25 @@ export default function AboutPage() {
               <Award className="w-12 h-12 text-amber-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Excelencia</h3>
               <p className="text-gray-600">
-                Nos comprometemos con los más altos estándares de calidad en todos nuestros servicios
+                Nos comprometemos en entregar los más altos estándares de atención humana. 
               </p>
             </div>
             <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
-              <Heart className="w-12 h-12 text-rose-400 mx-auto mb-4" />
+              <Handshake className="w-12 h-12 text-blue-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Empatía</h3>
               <p className="text-gray-600">
-                Entendemos y respetamos las necesidades únicas de cada persona que atendemos
+                Comprendemos y respetamos en base a nuestra experiencia profesional y bases académicas las necesidades de cada persona dentro del contexto de salud.
               </p>
             </div>
             <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
               <Users className="w-12 h-12 text-green-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Colaboración</h3>
-              <p className="text-gray-600">Trabajamos en equipo para brindar una atención integral y coordinada</p>
+              <p className="text-gray-600">Generar espacios clínicos que potencien el trabajo colaborativo entre el grupos multidisciplinario o interdisciplinario.</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
+              <HandHeart className="w-12 h-12 text-red-400 mx-auto mb-4" />
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Calidez humana</h3>
+              <p className="text-gray-600">Generar un espacio y ambiente confortable para generar lo que cualquier persona necesita, siendo un apoyo para cada proceso. </p>
             </div>
           </div>
         </div>
@@ -95,19 +99,22 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Nuestra Historia</h2>
             <div className="bg-gradient-to-r from-green-50 to-rose-50 p-8 rounded-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                Fundado con la visión de crear un espacio donde la salud mental y el bienestar sean prioritarios,
-                nuestro centro ha crecido hasta convertirse en un referente en la comunidad. Comenzamos como un pequeño
-                consultorio con el sueño de hacer la diferencia en la vida de las personas.
+                Con los más fuertes deseos de crear una buena respuesta a las distintas dificultades que presentas las personas y nuestro contexto social y cultural, 
+                sin crear barreras, donde la única barrera eres tu, pero que terminas superando con todo el apoyo que mereces. 
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                A lo largo de los años, hemos expandido nuestros servicios y nuestro equipo, siempre manteniendo nuestro
-                compromiso con la excelencia y la atención personalizada. Hoy, no solo ofrecemos servicios directos,
-                sino que también proporcionamos espacios para que otros profesionales puedan desarrollar su práctica en
-                un ambiente colaborativo y profesional.
+                Con estas bases, interterapia nace el 2023, y se conforma el 2025, iniciamos con una oficina y un conjunto de profesionales, que tiene el único objetivo, contribuir 
+                en esta sociedad con límites, para cada persona con sus características neurocognitivas que los hacen únicos, y que en muchas oportunidades se han discriminado o aislado, 
+                desde su infancia hasta la adultez. 
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Es por esto que con bases teóricas, responsables y profesionales, hemos ido enmarcado y reforzando estos espacios de trabajo, para que todos los
+                 profesionales tengan las herramientas y las capacidades de generar un trabajo objetivo, tanto a corto como a largo plazo, donde puedan disponer de una red de profesionales
+                  que trabajarán en sus distintas áreas de especialidad, pero se vincularan, creando un encuadre integral. 
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Nuestro enfoque integral nos permite abordar las necesidades de nuestros pacientes desde múltiples
-                perspectivas, trabajando en equipo para lograr los mejores resultados posibles.
+                Por otro lado, siempre buscando la excelencia y el crecimiento de espacios cada ves más idóneo, integrando más profesionales vinculados a la salud, no solo física y mental
+                 sino que desde un marco integral.
               </p>
             </div>
           </div>

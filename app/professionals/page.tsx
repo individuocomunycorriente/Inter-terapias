@@ -4,10 +4,10 @@ const professionals = [
   {
     id: 1,
     name: "Constanza Cañete",
-    specialty: "Psicóloga Clínica",
-    experience: "X años de experiencia",
+    specialty: "Psicóloga Clínica y Fundadora",
+    experience: "Registro de salud: 660601",
     education: "Especialista en Psicología Infantil y Adolescente, Universidad X",
-    specializations: ["Terapia Cognitivo-Conductual", "Ansiedad y Depresión", "Terapia de Pareja"],
+    specializations: ["Adolescente y adulto", "Tallerista de parentalidad"],
     image: "/perfil_cony.jpeg?height=300&width=300",
     email: "maria.gonzalez@centro.com",
     phone: "+56 9 1234 5678",
@@ -15,43 +15,87 @@ const professionals = [
   {
     id: 2,
     name: "Jose Szabo",
-    specialty: "Fonoaudiólogo",
-    experience: "C años de experiencia",
+    specialty: "Fonoaudiólogo y Fundador",
+    experience: "Registro de salud: 543595",
     education: "Licenciado en Fonoaudiología, Universidad X",
-    specializations: ["Trastornos del Habla", "Rehabilitación Vocal", "Terapia Infantil"],
+    specializations: ["Neurodivergencia, desde la infancia hasta la adultez"],
     image: "/perfil_jose.jpeg?height=300&width=300",
     email: "carlos.mendoza@centro.com",
     phone: "+56 9 8765 4321",
   },
   {
     id: 3,
-    name: "Dra. Ana Rodríguez",
-    specialty: "Psicóloga Infantil",
-    experience: "10 años de experiencia",
+    name: "Betsabeth Magdalena Diaz Paredes",
+    specialty: "Terapeuta ocupacional",
+    experience: "Registro de prestadores de servicio de salud: 645020",
     education: "Especialista en Psicología Infantil y Adolescente",
-    specializations: ["Terapia de Juego", "TDAH", "Trastornos del Aprendizaje"],
+    specializations: ["Neurodivergencia, desde la infancia hasta la adultez"],
     image: "/placeholder.svg?height=300&width=300",
     email: "ana.rodriguez@centro.com",
     phone: "+56 9 5555 6666",
   },
   {
     id: 4,
-    name: "Dr. Luis Herrera",
-    specialty: "Psicólogo Organizacional",
-    experience: "12 años de experiencia",
+    name: "Francisca Javiera Bruna Bruna",
+    specialty: "Kinesióloga",
+    experience: "Registro de prestadores de servicio de salud: 760234",
     education: "Magíster en Psicología Organizacional",
-    specializations: ["Coaching Ejecutivo", "Desarrollo Organizacional", "Gestión del Estrés"],
+    specializations: ["Problemas músculo esqueléticos"],
     image: "/placeholder.svg?height=300&width=300",
     email: "luis.herrera@centro.com",
     phone: "+56 9 7777 8888",
   },
   {
     id: 5,
-    name: "Dr. Luis Herrera",
-    specialty: "Psicólogo Organizacional",
-    experience: "12 años de experiencia",
+    name: "Alejandra Solange Anguita Cañete",
+    specialty: "Terapeuta ocupacional",
+    experience: "Registro de salud: 692294",
     education: "Magíster en Psicología Organizacional",
-    specializations: ["Coaching Ejecutivo", "Desarrollo Organizacional", "Gestión del Estrés"],
+    specializations: ["CEA/ TEA"],
+    image: "/placeholder.svg?height=300&width=300",
+    email: "luis.herrera@centro.com",
+    phone: "+56 9 7777 8888",
+  },
+  {
+    id: 6,
+    name: "Astrid Polet Prado Arellano",
+    specialty: "Psicologa clínica",
+    experience: "Registro de salud: 660616",
+    education: "Magíster en Psicología Organizacional",
+    specializations: ["Adolescente y adulto", "Tallerista de parentalidad"],
+    image: "/placeholder.svg?height=300&width=300",
+    email: "luis.herrera@centro.com",
+    phone: "+56 9 7777 8888",
+  },
+  {
+    id: 7,
+    name: "Renata Almendra Pino Nilo",
+    specialty: "Psicóloga infanta juvenil",
+    experience: "Registro de salud: 767904",
+    education: "Magíster en Psicología Organizacional",
+    specializations: ["CEA"],
+    image: "/placeholder.svg?height=300&width=300",
+    email: "luis.herrera@centro.com",
+    phone: "+56 9 7777 8888",
+  },
+  {
+    id: 8,
+    name: "Johana Isabel Torres Gálvez",
+    specialty: "Terapeuta ocupacional",
+    experience: "Registro de salud: 696707",
+    education: "Magíster en Psicología Organizacional",
+    specializations: ["Neurodivergencia y salud mental, desde la infancia hasta la adultez"],
+    image: "/placeholder.svg?height=300&width=300",
+    email: "luis.herrera@centro.com",
+    phone: "+56 9 7777 8888",
+  },
+  {
+    id: 9,
+    name: "Maribel Karina Muñoz Aburto",
+    specialty: "Fonoaudióloga",
+    experience: "Registro de salud: 817782",
+    education: "Magíster en Psicología Organizacional",
+    specializations: ["Neurodivergencia, desde la infancia hasta la adultez"],
     image: "/placeholder.svg?height=300&width=300",
     email: "luis.herrera@centro.com",
     phone: "+56 9 7777 8888",
@@ -96,14 +140,9 @@ export default function ProfessionalsPage() {
                       <h3 className="text-2xl font-bold text-gray-800 mb-2">{professional.name}</h3>
                       <p className="text-lg text-green-600 font-semibold mb-1">{professional.specialty}</p>
                       <p className="text-gray-600 flex items-center gap-2">
-                        <Award className="w-4 h-4" />
+                        
                         {professional.experience}
                       </p>
-                    </div>
-
-                    <div className="mb-4">
-                      <h4 className="font-semibold text-gray-800 mb-2">Formación:</h4>
-                      <p className="text-gray-600 text-sm">{professional.education}</p>
                     </div>
 
                     <div className="mb-4">
